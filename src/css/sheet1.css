@@ -1,0 +1,19 @@
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+
+body {background: gray;
+		font-family:Arial, Helvetica, sans-serif;
+		background-color:#FEFEFE;}
+h1,h2, h3, h4{color: blue;}
+p {color: black;}
+pre {color: gray;}
+
+ul {counter-reset: ordered;}
+ul li:before {
+	counter-increment: ordered;
+	content: counters(ordered,".") " - ";
+}

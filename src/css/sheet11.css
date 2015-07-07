@@ -1,0 +1,15 @@
+table {
+	border-collapse: collapse;
+	border: 3px outset gray;
+	table-layout: auto;
+	width: auto;
+}
+td {border: 1px solid gray; padding: 0.5em;}
+
+#r2c1, #r2c2 {border-style: hidden;}
+#r1c1, #r1c4 {border-width: 5px; vertical-align: middle;}
+#r2c4 {border-style: double; border-width: 3px; vertical-align: bottom;}
+#r3c4 {border-style: dotted; border-width: 2px;}
+#r4c1 {border-bottom-style: hidden;}
+#r4c3 {border-top: 13px solid silver;}
+#r1c3{vertical-align: middle;}

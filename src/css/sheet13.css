@@ -1,0 +1,16 @@
+body {font: icon; font-weight: bold; color: WindowText; background: Window;}
+div.menu{float: right;}
+div#sys {background-color: Background; font:WindowFrame;}
+a.widget {font: caption;}
+li{font:menu;}
+
+input#bt1 {color: ButtonFace; background-color: blue; cursor: wait;}
+input#bt2 {color: ButtonShadow; background-color: green; cursor: help;}
+input#bt3 {color: ButtonHighlight;background-color: maroon; cursor: crosshair;}
+input#bt4 {color: ButtonText; background-color: red;}
+
+a[href] {cursor: pointer;}
+a:focus {outline-color: red; outline: thick solid;}
+
+input:focus {outline: 1em double gray;}
+p {cursor: text;}

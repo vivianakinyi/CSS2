@@ -1,0 +1,26 @@
+h1#ch12 {counter-reset: chapter 11;}
+
+h1:before {
+	counter-reset: section subsec;
+	counter-increment: chapter;
+	content: counter(chapter) ". ";
+}
+h2:before {
+	counter-reset: subsec;
+	counter-increment: section;
+	content: counter(chapter )"." counter(section) ". ";
+}
+h3:before {
+	counter-increment: subsec;
+	content: counter(chapter) "." counter(section) "." counter(subsec) ". ";
+}
+
+
+ul {counter-reset: ordered;}
+ul li:before {
+	counter-increment: ordered;
+	content: counters(ordered,".") " - ";
+}
+/*Counters using letters instead*/
+/*ol li:before {counter-increment: ordered;
+content: counters(ordered,".",lower-alpha) ": ";}*/

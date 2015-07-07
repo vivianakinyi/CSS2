@@ -1,0 +1,6 @@
+a:link, a:visited {text-decoration: none;}
+
+li.one{color:fuchsia;}
+li.two{color:rgb(128,128,0)}
+li.three{color:rgb(75%,50%,50%);}
+li.four{color:#000080;}

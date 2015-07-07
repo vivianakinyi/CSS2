@@ -1,0 +1,16 @@
+body {
+	background-color: white; 
+	background-image: url(glassy-ripple.jpg);
+	background-position: top left; 
+	background-repeat: repeat-y;
+	background-attachment: fixed;
+}
+
+li em.warning{color:red;}
+li.attention{background-color:teal; }
+li.borders{padding: 0.5em; border: 1px solid green; }
+input{color:silver;}
+input.check {color:green;}
+li p.backgroundcolor {background-color: fuchsia; padding: 10px;}
+li p.backgroundimage {background-image: url(tile.png); background-color: silver}
+li p em {background-image: url(bg23.gif); background-color: olive}

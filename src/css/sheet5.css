@@ -1,0 +1,26 @@
+body {font-family: serif;}
+h1 {text-transform: uppercase;}
+h1, h2, h3, h4 {font-family:Helvetica;}
+h2 {font-variant: small-caps;text-transform: capitalize;}
+li.san {font-family:Arial, sans-serif;}
+li.serif {font-family:Georgia, serif;}
+li.mono {font-family:Author,Courier,monospace;}
+li.cur {font-family: Western,Woodblock,cursive;}
+
+p {font-size: 100%;font-family: Times, TimesNR, 'New Century Schoolbook', Georgia,
+'New York', serif; text-indent: 3em;}
+
+p span.bold {font-weight: bold;}
+p span.xtra {font-size: xx-large;}
+em {font-style: italic;}
+
+input {font: caption;}
+
+span.raise {vertical-align: super;}
+span.lower {vertical-align: sub;}
+
+p.emph {text-decoration: underline;}
+p.topper {text-decoration: overline;}
+p.old {text-decoration: line-through;}
+p.annoy {text-decoration: blink;}
+p.plain {text-decoration: none;}

@@ -1,0 +1,37 @@
+body { margin: 1em 2em 3em } /* top=1em, right=2em, bottom=3em, left=2em */
+h1 {margin: 1em 3em;}
+h2 {margin-left: 3em; margin-bottom: 2em; margin-right: 0; margin-top: 3em;}
+h2.padding {padding: 0.5em 2em; background: silver;}
+div#box {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+}
+div#box p {background-color: silver; margin: 10px; border: 5px solid gray;}
+
+div.collapse {border: 1px dotted gray; margin: 1em;}
+/*p {margin: 1em; border: 1px dashed silver;}*/
+p.one {margin: 0 -1em;}
+p.two {margin: -1em 0;}
+
+div.creative{width: 500px; background: silver; border: 1px solid;}
+/*p {margin: 1em;}*/
+p.punch {background: white; margin: 1em -1px 1em 25%;
+border: 1px solid; border-right: none; text-align: center;}
+p.mond {background: #333; color: white; margin: 1em 3em -3em -3em;}
+
+strong {margin-left: 25px; background: silver;}
+
+/*Border styles*/
+p.none {border-style: none;}
+p.dotted {border-style: dotted; border-color:red; }
+p.dashed {border-style: dashed; border-color:green;}
+p.solid {border-style: solid; border-color:gray;}
+p.double {border-style: double; border-color:navy;}
+p.groove {border-style: groove;border-color:blue;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.hidden {border-style: hidden;}
+p.multiple {border-style: dashed solid groove double;}

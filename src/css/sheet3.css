@@ -1,0 +1,31 @@
+/*sPECIFITY*/
+li.example {
+	padding: 0.5em;
+	border: 1px solid black; 
+	font-family: Charcoal, sans-serif;} 
+
+h1 {color: red;}
+body h1 {color: green;}
+h2.grape {color: purple;}
+h2 {color: silver;}
+html > body table tr[id="totals"] td ul > li {color: maroon;}
+li#answer {color: navy;}
+h1 + p {color: black; font-style: italic;} /* 0,0,0,2 */
+p {color: gray; background: white; font-style: normal;} /* 0,0,0,1 */
+*.aside {color: black; background: silver;} /* 0,0,1,0 */
+
+/*To illustrate important*/
+h1 {font-style: italic; color: gray !important;}
+.title {color: black; background: silver;}
+
+/*Sorting by order*/
+/*chained pseudo-classes used to eliminate conflicts*/
+a:link {color: blue;}
+a:visited {color: purple;}
+a:hover {color: red;}
+a:active {color: orange;}
+
+
+/*a:link:hover:active {color: orange;}
+a:visited:hover:active {color: silver;}
+*/

@@ -1,0 +1,31 @@
+/*body *:hover {background: yellow;} /*Gives any*/
+
+h1, h2, h3, h4 {font: 18px Helvetica;} /*Grouping selectors*/
+h1 {font: 18px Helvetica; color: purple; background: aqua;} /*Grouping declarations*/
+
+/*Grouping everything*/
+h1, h2, h3, h4, h5, h6 {
+	padding: 0.5em;
+	border: 1px solid black; 
+	font-family: Charcoal, sans-serif;} 
+
+/*Psudo-classes*/
+a {color: blue;}
+a:link {color: blue;}
+a:visited {color: purple;}
+a.external:link, a.external:visited {color: maroon;}
+/*Dynamic pseudo classes*/
+a:hover {color: red;}
+a:active {color: silver;}
+
+a:link, a:visited {font-size: 13px;}
+a:hover {font-size: 20px;}
+
+/*Combining psedoclasses*/
+a:link:hover {color: red;}
+a:visited:hover {color: maroon;}
+
+/*h2:before {content: "]]"; color: silver;} *//*Inserts before content*/
+h2:after {content: " the end"; color: silver;} /*Inserts after content*/
+h2:first-letter {font-size: 200%;}
+
