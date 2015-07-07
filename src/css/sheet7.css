@@ -1,6 +1,7 @@
-div#navigation a {display: inline;}
+div#navigation {position: fixed; background-color:#8A5353;}
+ul {text-decoration: none;}
 div:first-child {border-left: 1px solid;}
-div {padding: 30px; background: silver;}
+div.test {padding: 70px; background: silver; margin-top: 40px;}
 
 div.smiles {float: right;}
 p {margin: 20px; padding: 20px; background: white; font-size: 15px; line-height: 18px;}
