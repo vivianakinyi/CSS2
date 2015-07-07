@@ -1,3 +1,4 @@
+
 h1#ch12 {counter-reset: chapter 11;}
 
 h1:before {
@@ -24,3 +25,8 @@ ul li:before {
 /*Counters using letters instead*/
 /*ol li:before {counter-increment: ordered;
 content: counters(ordered,".",lower-alpha) ": ";}*/
+
+em:after {content: "!"; display: inline;}
+a[href]:before {content: "(link)";}
+
+p.smiley:after {content: url(smiley.jpg);}
